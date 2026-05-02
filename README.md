@@ -9,7 +9,7 @@ This repository contains an end-to-end Machine Learning pipeline designed to cla
 ## Methodology and Workflow
 
 ### 1. Data Acquisition
-The raw textual data and associated metadata were extracted from Google Maps. The scraping process was executed utilizing an open-source tool developed by[aliepratama/gmaps-review-scraper](https://github.com/aliepratama/gmaps-review-scraper). 
+The raw textual data and associated metadata were extracted from Google Maps. The scraping process was executed utilizing an open-source tool developed by [aliepratama/gmaps-review-scraper](https://github.com/aliepratama/gmaps-review-scraper). 
 
 ### 2. LLM-Assisted Sentiment Labeling
 Initial exploratory data analysis revealed a significant discrepancy between user-assigned star ratings and the actual textual sentiment (e.g., users assigning a 5-star rating while writing a highly critical review). Consequently, relying on star ratings as the target variable ($y$) would introduce severe label noise.
